@@ -1,3 +1,5 @@
 function getElementWidth(content, padding, border) {
-  return `${content + 2 * padding + 2 * border}`;
+  return `${
+    parseFloat(content) + 2 * parseFloat(padding) + 2 * parseFloat(border)
+  }`;
 }
